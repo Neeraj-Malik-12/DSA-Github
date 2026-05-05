@@ -1,4 +1,6 @@
 ### IntelliJ IDEA ###
+.idea/
+DSA Github.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
