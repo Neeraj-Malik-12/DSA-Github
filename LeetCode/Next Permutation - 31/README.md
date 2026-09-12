@@ -61,3 +61,31 @@ Like here, it would be 143, and if we convert it into an array , it would be [1,
 
 
 So we have to perform this.
+
+----
+
+To do so...
+
+We have to do something , if we look closely , 4 is greater than 3 , that means 3 is lesser than the number at a greater index at it. So, 3 is breaking point.
+
+Then we have to traverse again and find first greater element than the breaking point , in our case , it is 4 , i.e. the last element.
+
+#### Now we have to do two things:- 
+
+1.) Swap the breaking point (3 here) with any fisrt found largest element ( 4 here). It would be [1,4,3].
+
+2.) Then we have to reverse the remaining array from the next element of breaking point till the very last.
+
+In this case , there exist only one element after breaking point , i.e. 4 , so it would remain same.
+
+[1,4,3]. That is our answer.
+
+---
+
+#### Time Complexity : O(n)
+#### Space Complexity : O(1)
+
+
+#### Github Link : https://leetcode.com/problems/next-permutation/description/
+
+
